@@ -1,0 +1,29 @@
+.Customer-SignUp,
+.Customer-SignIn {
+  text-align: center;
+}
+
+.Customer-SignUp h1,
+.Customer-SignIn h1 {
+  margin-bottom: 35px;
+  margin-top: 22px;
+  color: blueviolet;
+}
+a.toggle-btn {
+  padding-left: 5px;
+  color: blue;
+  text-decoration: none;
+}
+span {
+  padding-top: 12px;
+  margin: 0;
+  font-size: 14px;
+}
+.form-input-radio {
+  height: 30px;
+  padding: 5px;
+  padding-left: 20px;
+  border-radius: 20px;
+  padding-bottom: 15px;
+  font-size: 18px;
+}

@@ -1,0 +1,33 @@
+{
+  "seller": [
+    {
+      "name": "Kamal",
+      "email": "kamal@gmail.com",
+      "password": "963258",
+      "id": 1
+    },
+    {
+      "name": "raja",
+      "email": "raja@gmail.com",
+      "password": "7896321",
+      "id": 2
+    },
+    {
+      "name": "Raj",
+      "email": "raj@gmail.com",
+      "password": "1237789",
+      "id": 3
+    }
+  ],
+  "customer": [
+    {
+      "name": "Raja",
+      "mobile": 9874563210,
+      "gender": "male",
+      "dob": "2023-02-11",
+      "email": "raj@gmail.com",
+      "password": "9632588",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+<div class="seller-auth">
+  <div *ngIf="showLogin" class="sign-up">
+    <h1>Seller SignUp Form</h1>
+    <form
+      #sellerSingUp="ngForm"
+      (ngSubmit)="signUp(sellerSingUp.value)"
+      class="common-form"
+    >
+      <input
+        class="form-input"
+        ngModel
+        name="name"
+        type="text"
+        placeholder="Name"
+      />
+      <input
+        class="form-input"
+        ngModel
+        name="email"
+        type="email"
+        placeholder=" Email"
+      />
+      <input
+        class="form-input"
+        ngModel
+        name="password"
+        type="password"
+        placeholder="Password"
+      />
+      <button class="form-button">Sign Up</button>
+      <span>Aleardy I have account<a  (click)="openSignIn()" class="toggle-btn">SignIn</a> </span>
+    </form>
+  </div>
+
+  <!-- Login Aera -->
+  <div *ngIf="!showLogin" class="login">
+    <h1>Seller Login Form</h1>
+    <!-- <p class="error">{{authError}}</p> -->
+    <form
+      #login="ngForm"
+      (ngSubmit)="signIn(login.value)"
+      class="common-form"
+    >
+      <input
+        class="form-input"
+        ngModel
+        name="email"
+        type="email"
+        placeholder=" Email"
+      />
+      <input
+        class="form-input"
+        ngModel
+        name="password"
+        type="password"
+        placeholder="Password"
+      />
+      <button class="form-button">Sign In</button>
+      <span>Aleardy I Do't have account<a (click)="openSignUp()" class="toggle-btn">SignUp</a> </span>
+    </form>
+  </div>
+</div>

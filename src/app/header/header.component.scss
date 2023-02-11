@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  color: blueviolet;
+  margin: 0;
+  font-size: 40px;
+}
+.nav-search {
+  margin-top: 5px;
+  flex: 1px;
+  display: flex;
+  justify-content: center;
+}
+input {
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  height: 31px;
+  border-right: 0px;
+  padding-left: 15px;
+}
+button {
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 35px;
+  border-left: 0px;
+}
+ul {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
