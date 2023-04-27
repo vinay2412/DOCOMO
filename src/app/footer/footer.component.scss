@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+.mobile-only {
+display: none;
+}
+
+footer {
+background: #424242;
+padding: 30px 10px;
+color: #949c9e;
+}
+
+footer ul {
+padding: 0 !important;
+list-style: none;
+}
+
+footer .logo {
+margin-bottom: 10px;
+}
+
+footer p {
+font-size: 14px;
+width: 70%;
+}
+
+footer ul li {
+margin: 10px 0;
+}
+
+footer a {
+color: #fff;
+text-decoration: none;
+}
+
+footer a:hover {
+color: #1da1f2;
+}
+
+footer .social {
+display: flex;
+border-top: 1px solid #949c9e;
+align-items: center;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+footer .social ul {
+display: flex;
+}
+
+footer .social ul li {
+margin: 10px;
+}
+
+@media (max-width: 600px) {
+.mobile-only {
+  display: block;
+}
+
+footer a {
+  font-size: 14px;
+}
+
+footer .links {
+  padding: 0 !important;
+}
+
+footer .right {
+  padding: 0 10px;
+}
+}
+
+@media (min-width: 1200px) {
+#one-app .list {
+  width: 60%;
+}
+
+#video .thumbnail {
+  width: 500px;
+}
+
+#pricing .plans .plan {
+  box-shadow: -4px -4px 40px rgba(0, 0, 0, 0.2);
+}
+
+#pricing .offer {
+  box-shadow: -4px -4px 40px rgba(0, 0, 0, 0.2);
+}
+
+#set_passcode li {
+  color: #9e9e9e;
+}
+}

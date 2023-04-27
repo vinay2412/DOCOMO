@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { SellerService } from './serviecs/seller.service';
 import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { CustomerHomeComponent } from './customer-home/customer-home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CustomerHomeComponent } from './customer-home/customer-home.component';
     SellerAuthComponent,
     LoginComponent,
     SellerHomeComponent,
-    CustomerHomeComponent
+    CustomerHomeComponent,
+    FooterComponent
   ],
   imports: [
     FormsModule,

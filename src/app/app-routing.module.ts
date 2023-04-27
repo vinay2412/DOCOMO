@@ -13,7 +13,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'seller-auth',
+    path: 'seller',
     component: SellerAuthComponent
   },
   {

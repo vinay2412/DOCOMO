@@ -1,4 +1,33 @@
-<div class="Customer-SignUp">
+<div class="container">
+<div class="main">
+  <input type="checkbox" id="chk" aria-hidden="true">
+
+    <div class="signup">
+      <form >
+        <label for="chk" aria-hidden="true">Sign Up</label>
+        <input type="text" name="txt" placeholder="User name" required="">
+        <input type="email" name="email" placeholder="Email" required="">
+        <input type="password" name="pswd" placeholder="Password" required="">
+        <button>Sign up</button>
+      </form>
+    </div>
+
+    <div class="login">
+      <form>
+        <label for="chk" aria-hidden="true">Sign In</label>
+        <input type="email" name="email" placeholder="Email" required="">
+        <input type="password" name="pswd" placeholder="Password" required="">
+        <button>Login</button>
+      </form>
+    </div>
+</div>
+</div>
+
+
+
+
+
+<!-- <div class="Customer-SignUp">
   <div *ngIf="showLogin" class="sign-up">
     <h1>Customer SignUp</h1>
     <form
@@ -52,10 +81,10 @@
     </form>
   </div>
 
-  <!-- Login Aera -->
+  // Login Aera
   <div *ngIf="!showLogin" class="Customer-SignIn">
     <h1>Customer SignIn</h1>
-    <!-- <p class="error">{{authError}}</p> -->
+    //<p class="error">{{authError}}</p>
     <form
       #customerLogin="ngForm"
       (ngSubmit)="login(customerLogin.value)"
@@ -79,4 +108,4 @@
       <span>Aleardy I Do't have account<a (click)="openSignUp()" class="toggle-btn">SignUp</a> </span>
     </form>
   </div>
-</div>
+</div> -->
