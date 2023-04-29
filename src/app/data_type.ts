@@ -1,24 +1,21 @@
-export interface signUp {
-  name: string;
+export interface signupObj {
+  userName: string;
   email: string;
   password: string;
 }
 
-export interface signIn {
+export interface signinObj {
+  email: string;
+  password: string;
+}
+export interface registerObj {
+  userName: string;
+  phone: number;
   email: string;
   password: string;
 }
 
-export interface register {
-  name: string;
-  mobile: number;
-  gender: string;
-  dob: string;
-  email: string;
-  password: string;
-}
-
-export interface login {
+export interface loginObj {
   email: string;
   password: string;
 }
